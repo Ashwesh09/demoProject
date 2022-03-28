@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Mar 28 11:34:27 IST 2022
+org.eclipse.jst.jee.server\:/binary\:D\:\\Web\ Projects\\HelloWebMVC\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-4.0.4.RELEASE.jar=WEB-INF/lib/spring-web-4.0.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ASUS\\.m2\\repository\\org\\springframework\\spring-web\\5.3.17\\spring-web-5.3.17.jar=WEB-INF/lib/spring-web-5.3.17.jar

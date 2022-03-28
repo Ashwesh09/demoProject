@@ -1,0 +1,22 @@
+package com.springwebmvcdemo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+@RequestMapping("/add")
+public class AddtionController {
+	@RequestMapping(params={"submit"}, method = RequestMethod.GET)
+	public String printWelcome(ModelMap model,
+					@RequestParam(value = "num1",required=true) String num1,
+					@RequestParam(value = "num2",required=true) String num2) {
+		
+	   int n1 = Integer.parseInt(num1);
+	   int n2 = Integer.parseInt(num2);
+	   model.addAttribute("message", n1+" + " + n2 + " = " +(n1+n2));
+		return "add";
+	}
+}

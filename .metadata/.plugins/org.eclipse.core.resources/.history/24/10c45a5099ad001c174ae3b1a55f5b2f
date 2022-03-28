@@ -1,0 +1,17 @@
+package com.springwebmvcdemo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/add")
+public class AddtionController {
+	@RequestMapping(method = RequestMethod.GET)
+	public String printHello(ModelMap model) {
+		//String num1 = String.valueof(model.getAttribute("num1"));
+		model.addAttribute("message", "Adding Two Numbers");
+		return "add";
+	}
+}

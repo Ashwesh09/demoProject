@@ -1,0 +1,11 @@
+
+˜
+java:S1128"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;8ºÜ€úü/HáRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(×¾è¹úÿÿÿÿ8ºÜ€úü/HÏRMAJORZ
+CODE_SMELL
+n	java:S125 "<This block of commented-out lines of code should be removed.(•†ïµ8ºÜ€úü/HÓRMAJORZ
+CODE_SMELL
+~
+java:S1128"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿8ºÜ€úü/HßRMINORZ
+CODE_SMELL
